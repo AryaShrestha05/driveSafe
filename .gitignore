@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Env / secrets
+.env
+
+# Uploaded clips
+server/uploads/
+
+# OS / editor
+.DS_Store
+*.log
