@@ -2,10 +2,11 @@
   "name": "drivesafe-server",
   "version": "0.1.0",
   "private": true,
+  "main": "src/index.mjs",
   "type": "module",
   "scripts": {
-    "dev": "nodemon",
-    "start": "node src/index.js"
+    "start:dev": "nodemon ./src/index.mjs",
+    "start": "node ./src/index.mjs"
   },
   "dependencies": {
     "cors": "^2.8.5",
